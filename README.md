@@ -9,7 +9,7 @@ This folder contains my solutions of HackerRank C++ problems from challenge no. 
 **IP_address**
 
 This text file contains my IP address found through terminal command : 
-~~~$ curl ifconfig.me~~~
+$ curl ifconfig.me
 
 **Using_Webcam**
 
