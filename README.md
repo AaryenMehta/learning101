@@ -8,6 +8,10 @@ This folder contains my solutions of HackerRank C++ problems from challenge no. 
 
 # IP_address
 
-This folder contains my IP address found through terminal command : curl ifconfig.me
+This text file contains my IP address found through terminal command : 
+$ curl ifconfig.me
 
-# Using_
+# Using_Webcam
+
+This file contains my selfie taken from front cam of laptop. Command :
+$ cheese
