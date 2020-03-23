@@ -1,1 +1,1 @@
-Image is an array of pixels. Every pixel has it's x and y coordinates. And every pixel contains stored bits. And the bits have information about RGB value of that pixel and other essential information for representation of that pixel. 
+According to computer science, image is an array of pixels. Every pixel has it's x and y coordinates. And every pixel contains stored bits. And the bits have information about RGB value of that pixel and other essential information for representation of that pixel. 
