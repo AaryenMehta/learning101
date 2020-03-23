@@ -15,3 +15,7 @@ This text file contains my IP address found through terminal command :
 
 This file contains my selfie taken from front cam of laptop. Command :
 ```$ cheese```
+
+**imageProcessing**
+
+This folder contains the answers to the assigned task of "Image Processing".
