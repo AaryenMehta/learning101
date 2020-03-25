@@ -15,6 +15,7 @@ cv2.createTrackbar("UV", "Tracking",255,255,nothing) #upper value = 255
 while True: # a loop that goes on unless esc key is encountered
     
     # refer to the image in my repo. Path: AaryenMehta/learning101/imageProcessing/photo.jpg
+    #used my friend's photo.XD As this picture contains a lot of colours for better skin detection.
     image = cv2.imread('/home/aaryen/Desktop/photo.jpg') #reads image
 
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) #convert color from RGB to HSV
