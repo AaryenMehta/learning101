@@ -1,6 +1,7 @@
 from cv2 import cv2 as cv
 import numpy as np
 
+#refer to opencv logo in images folder
 img = cv.imread("/home/aaryen/Desktop/opencv-logo.png") #opencv logo is input image
 imgray = cv.cvtColor(img, cv.COLOR_BGR2GRAY) #convert to grayscale and store in imgray
 ret, thresh = cv.threshold(imgray, 127, 255, cv.THRESH_BINARY) #thresholding with THRESH_BINARY
