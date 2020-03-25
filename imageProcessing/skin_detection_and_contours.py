@@ -14,6 +14,7 @@ cv2.createTrackbar("UV", "Tracking",255,255,nothing) #upper value = 255
 
 while True: # a loop that goes on unless esc key is encountered
     
+    # refer to hand.jpg in images folder
     image = cv2.imread('/home/aaryen/Desktop/hand.jpg') #reads image
     imgray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) #converts image to grayscale and stores in imgray
     ret, thresh = cv2.threshold(imgray, 127, 255, cv2.THRESH_BINARY) #thresholding grayscale image
