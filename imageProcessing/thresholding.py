@@ -1,6 +1,7 @@
 from cv2 import cv2
 import numpy as np
 
+#refer to gradient.png in my repo in Images folder
 img = cv2.imread("/home/aaryen/Desktop/opencv-master/samples/data/gradient.png", 0)
 ret, th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY) #smaller than threshold assigned to 0. Larger than threshold assigned to 1.
 ret, th2 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY_INV) #does the inverse of THRESH_BINARY, that is smaller than threshold assigned to 1. Larger than threshold assigned to 0.
