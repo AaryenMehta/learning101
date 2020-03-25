@@ -14,6 +14,7 @@ cv2.createTrackbar("UV", "Tracking",255,255,nothing) #upper value = 255
 
 while True: # a loop that goes on unless esc key is encountered
     
+    # refer to the image in my repo. Path: AaryenMehta/learning101/imageProcessing/photo.jpg
     image = cv2.imread('/home/aaryen/Desktop/photo.jpg') #reads image
 
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) #convert color from RGB to HSV
@@ -30,8 +31,8 @@ while True: # a loop that goes on unless esc key is encountered
 
     #lower bound and upper bound arrays for mask
 
-    l_b = np.array([l_h,l_s,l_v]) #0,0,110
-    u_b = np.array([u_h,u_s,u_v]) #33,255,255
+    l_b = np.array([l_h,l_s,l_v]) #0,48,0
+    u_b = np.array([u_h,u_s,u_v]) #50,255,255
 
     mask = cv2.inRange(hsv, l_b, u_b) #mask
 
