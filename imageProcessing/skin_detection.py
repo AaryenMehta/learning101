@@ -14,6 +14,7 @@ cv2.createTrackbar("UV", "Tracking",255,255,nothing) #upper value = 255
 
 while True: # a loop that goes on unless esc key is encountered
     
+    #please refer to the hand.jpg image in my repo: AaryenMehta/learning101/imageProcessing/hand.jpg
     image = cv2.imread('/home/aaryen/Desktop/hand.jpg') #reads image
 
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) #convert color from RGB to HSV
