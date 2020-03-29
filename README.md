@@ -19,3 +19,5 @@ This file contains my selfie taken from front cam of laptop. Command :
 **imageProcessing**
 
 This folder contains the answers to the asked questions related to "Image". It also contains some basic info(in comments) and code related to thresholding, contours, skin detection etc. I have also uploaded solutions(except Q5) to first chapter exercise of Programming Computer Vision in a folder named PCV_exercise.
+
+All necessary images needed for the codes are given in "Images" folder in imageProcessing.
