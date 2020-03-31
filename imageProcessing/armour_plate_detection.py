@@ -18,10 +18,6 @@ u_b = pl.array([52,131,255]) #52,131,255
 
 mask = cv2.inRange(hsv, l_b, u_b) #mask
 
-res = cv2.bitwise_and(image,image,mask=mask) #final result stored in res
-
-im = pl.array(imgray)
-
 #sobel derivatives
 imx = pl.zeros(mask.shape)
 filters.sobel(mask,1,imx)
