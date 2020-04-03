@@ -25,3 +25,7 @@ All necessary images needed for the codes are given in "Images" folder in imageP
 **Armour Plate Detection**
 
 Completed the code. The rectangle is not as "neat" as that shown in Slack. But I think it serves the purpose. The code is given under imageProcessing folder. Name: "armour_plate_detection.py"
+
+**Task 3**
+
+This folder contains my solutions to the assigned task, Task 3. I have uploaded the shell script codes in a folder named "HackerRank_Shell". I have solved first 10 challenges. I am still working on 11th challenge, functions and fractals.
