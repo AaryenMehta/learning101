@@ -4,7 +4,7 @@ from PIL import Image
 from scipy.ndimage import filters,measurements,morphology
 
 image = cv2.imread('/home/aaryen/Desktop/robo.jpg') #reads image
-#image = cv2.resize(image, (960,540)) #had resized the image as it was to big for the screen
+image = cv2.resize(image, (960,540)) #had resized the image as it was to big for the screen
 imgray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 ret, thresh = cv2.threshold(imgray, 110, 255, cv2.THRESH_BINARY) #thresholding with THRESH_BINARY
