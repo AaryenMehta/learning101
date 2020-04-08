@@ -5,10 +5,11 @@ roscore
 rosrun turtlesim turtlesim_node
 
 # in terminal 3
-read key
+
 
 while [ 1 ]
 do
+        read key
 	if [[ key == "f" ]]
 	then
 		rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
