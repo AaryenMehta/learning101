@@ -1,0 +1,8 @@
+prefix=/home/aaryen/aaryen_ws/install
+
+Name: era_task3
+Description: Description of era_task3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

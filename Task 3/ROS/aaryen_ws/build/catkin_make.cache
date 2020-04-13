@@ -1,0 +1,2 @@
+era_task3
+-DCATKIN_DEVEL_PREFIX=/home/aaryen/aaryen_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aaryen/aaryen_ws/install -G Unix Makefiles
