@@ -1,0 +1,2 @@
+era_task4
+-DCATKIN_DEVEL_PREFIX=/home/aaryen/yellow_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aaryen/yellow_ws/install -G Unix Makefiles
