@@ -24,7 +24,7 @@ All necessary images needed for the codes are given in "Images" folder in imageP
 
 **Armour Plate Detection**
 
-Completed the code. The rectangle is not as "neat" as that shown in Slack. But I think it serves the purpose. The code is given under imageProcessing folder. Name: "armour_plate_detection.py"
+Completed the code. The rectangle is not as "neat" as that shown in Slack. But I think it serves the purpose. The code is given under imageProcessing folder. Name: "armour_plate_detection.py". The problem with this code is, that it is image specific code. I am still attempting to write a more general code.
 
 **Task 3**
 
