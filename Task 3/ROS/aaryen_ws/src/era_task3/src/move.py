@@ -10,21 +10,22 @@ def move():
 
     #Receiveing the user's input
     print("Let's move your robot")
-    key = raw_input("Press f for forward and b for backward: ")
-
-    #Checking if the movement is forward or backwards
-    if(key == "f"):
-        vel_msg.linear.x = abs(3.0)
-    elif (key == "b"):
-        vel_msg.linear.x = -abs(3.0)
-    #Since we are moving just in x-axis
-    vel_msg.linear.y = 0
-    vel_msg.linear.z = 0
-    vel_msg.angular.x = 0
-    vel_msg.angular.y = 0
-    vel_msg.angular.z = 0
-
     while not rospy.is_shutdown():
+    	key = raw_input("Press f for forward and b for backward: ")
+
+    	#Checking if the movement is forward or backwards
+    	if(key == "f"):
+        	vel_msg.linear.x = abs(3.0)
+    	elif (key == "b"):
+        	vel_msg.linear.x = -abs(3.0)
+    	#Since we are moving just in x-axis
+    	vel_msg.linear.y = 0
+    	vel_msg.linear.z = 0
+    	vel_msg.angular.x = 0
+    	vel_msg.angular.y = 0
+    	vel_msg.angular.z = 0
+
+    #while not rospy.is_shutdown():
 
         #Setting the current time for distance calculus
         t0 = rospy.Time.now().to_sec()

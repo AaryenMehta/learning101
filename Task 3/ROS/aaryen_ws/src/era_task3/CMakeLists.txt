@@ -204,3 +204,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(move src/move.cpp)
+target_link_libraries(move ${catkin_LIBRARIES})
+add_dependencies(move era_task3_gencpp)
