@@ -28,4 +28,8 @@ Completed the code. The rectangle is not as "neat" as that shown in Slack. But I
 
 **Task 3**
 
-This folder contains my solutions to the assigned task, Task 3. I have uploaded the shell script codes in a folder named "HackerRank_Shell". I have solved first 10 challenges. I am still working on 11th challenge, functions and fractals.
+This folder contains my solutions to the assigned task, Task 3. I have uploaded the shell script codes in a folder named "HackerRank_Shell". I have solved first 10 challenges. I have also uploaded my workspace "aaryen_ws" for ROS tasks assigned in task3.
+
+**Task 4**
+
+This folder conatains my team's workspace, "yellow_ws" which includes codes for first two tasks of the ROS tasks in task4. I am working on the last one. Communication with parter still left.
