@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/home/aaryen/yellow_ws/devel/bin:$PATH"
 export PWD="/home/aaryen/yellow_ws/build"

@@ -126,7 +126,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/aaryen/yellow_ws/build/gtest/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_multimaster/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_multimaster_msgs/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_master_discovery/cmake_install.cmake")
   include("/home/aaryen/yellow_ws/build/era_task4/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_master_sync/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_node_manager_daemon/cmake_install.cmake")
+  include("/home/aaryen/yellow_ws/build/multimaster/fkie_node_manager/cmake_install.cmake")
 
 endif()
 

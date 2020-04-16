@@ -1,2 +1,2 @@
-era_task4
+era_task4:multimaster/fkie_master_discovery:multimaster/fkie_master_sync:multimaster/fkie_multimaster:multimaster/fkie_multimaster_msgs:multimaster/fkie_node_manager:multimaster/fkie_node_manager_daemon
 -DCATKIN_DEVEL_PREFIX=/home/aaryen/yellow_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aaryen/yellow_ws/install -G Unix Makefiles
